@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/woman-with-tablet.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "A woman holding a tablet";
 
 /**
  * Project list
@@ -31,28 +31,26 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "My Project",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A Cricket Score Prediction Model using Machine Learning. The model predicts the score of a cricket match on the basis of historical data.",
+    url: "https://github.com/Abdulhusain-tech/Cricket-Score-Prediction",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Academics",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Passed 10th grade with 85% and passed 12th grade with 60% in Science stream. Currently studying in 3rd year of IT Engineering",
   },
   {
     title: "My Resume Site",
     description:
       "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    url: "https://abdulhusain-tech.github.io/resume-project/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    title: "Certificates",
+    description: "Hands-on Introduction to Linux Commands and Shell Scripting",
+    url: "https://www.coursera.org/account/accomplishments/certificate/KGWEH2E8BC2G",
   },
 ];
 
